@@ -43,3 +43,12 @@ public int getNr(){}
 
 ## Methoden
 Zusätzlich zu den Atributen besitzen Objekte auch Methoden. Zum Beispiel die Klasse Würfel hat die Methode würfeln().
+
+# Präfixe für GUI
+- Button:        btn
+- Label:         lbl
+- TextBox:       tbx
+- RadioButton:   rbt
+- ListBox:       lbx
+- ComboBox:      cbx
+- CheckBox:      chk
