@@ -32,8 +32,8 @@ public NameDerKlasse()
 {
 }
 
-## Atribute
-Atribute sind die Variablen eines Objektes.
+## Attribute
+Attribute sind die Variablen eines Objektes.
 Sie werden als private deklariert und werden nur von Methoden des Objektes gelesen und beschrieben.
 Diese Methoden nennt man getter und setter.
 Bsp:
@@ -42,7 +42,7 @@ public void setNr(){}
 public int getNr(){}
 
 ## Methoden
-Zusätzlich zu den Atributen besitzen Objekte auch Methoden. Zum Beispiel die Klasse Würfel hat die Methode würfeln().
+Zusätzlich zu den Attributen besitzen Objekte auch Methoden. Zum Beispiel die Klasse Würfel hat die Methode würfeln().
 
 ## UML2-Notation (Unified Modeling Language, V2)
 
@@ -64,7 +64,7 @@ direkter Lese- und Schreibzugriff von Objekten einer Subklasse (→ Vererbung) a
 das Attribut möglich, jedoch kein direkter Lese- und Schreibzugriff von außen auf
 das Attribut möglich
 
-### Schreibweise Atribute
+### Schreibweise Attribute
 
 1. +/-/#
 2. Name
