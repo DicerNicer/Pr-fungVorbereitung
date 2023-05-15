@@ -44,6 +44,46 @@ public int getNr(){}
 ## Methoden
 Zusätzlich zu den Atributen besitzen Objekte auch Methoden. Zum Beispiel die Klasse Würfel hat die Methode würfeln().
 
+## UML2-Notation (Unified Modeling Language, V2)
+
+UML2 ist die Notationsweiße für Klassen.
+Sie besteht aus 3 Kästen:
+- Der oberste gibt den Klassennamen an.
+- Die zweite die Attribute.
+- Die dritte die Mehtoden.
+### Private / Public / Protected
+#### Public
++ vor Name
+direkter Lese- und Schreibzugriff von außen auf das Attribut möglich
+#### Private
+- vor Name
+kein direkter Lese- und Schreibzugriff von außen auf das Attribut möglich
+#### Protected
+\# vor Name
+direkter Lese- und Schreibzugriff von Objekten einer Subklasse (→ Vererbung) auf
+das Attribut möglich, jedoch kein direkter Lese- und Schreibzugriff von außen auf
+das Attribut möglich
+
+### Schreibweise Atribute
+
+1. +/-/#
+2. Name
+3. :
+4. Datentyp
+
+Bsp.: 
++ augenzahl:int
+
+### Schreibweise Mehtoden
+1. +/-/#
+2. Name
+3. (übergabeVar:Datentyp)
+4. :
+5. Rückgabewert
+
+Bsp.:
++ wuerfeln(void):int
+
 # Präfixe für GUI
 - Button:        btn
 - Label:         lbl
